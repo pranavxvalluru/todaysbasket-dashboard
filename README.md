@@ -1,8 +1,8 @@
-# Today's Basket — Dashboard V4.9
+# Today's Basket — Dashboard V5.2
 
 This is the next release of the **Today's Basket Store Dashboard & Analysis** website. It continues using your existing Supabase project and private report-storage backend.
 
-## Changes in V4.9
+## Changes in V5.2
 
 - Replaced text symbols in the navigation sidebar with consistent inline SVG icons, refined active/hover states and subtle icon-press animations. No icon font or PNG dependency.
 - Removed the `TODAY'S BASKET` eyebrow line above **Welcome back** on the login card; the brand/logo in the left panel is unchanged.
