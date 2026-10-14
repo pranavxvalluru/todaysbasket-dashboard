@@ -1,6 +1,6 @@
 /* Today's Basket — password recovery callback (client-side public key only). */
 'use strict';
-const SB_URL='https://kggypoblcagwqqtshixd.supabase.co';
+const SB_URL=(window.TB_API_GATEWAY_URL || 'https://kggypoblcagwqqtshixd.supabase.co').replace(/\/+$/, '');
 const SB_PUBLISHABLE_KEY='sb_publishable_R19AkJP-laREZyeSf6LkWw_8YTb_UW3';
 const $=id=>document.getElementById(id);
 const urlHash=new URLSearchParams(location.hash.replace(/^#/,''));
